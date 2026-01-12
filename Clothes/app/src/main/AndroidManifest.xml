@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShopHub">
+        
+        <!-- LoginActivity - LAUNCHER -->
+        <activity
+            android:name="com.example.ecommerceapp.activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ShopHub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- RegisterActivity -->
+        <activity
+            android:name="com.example.ecommerceapp.activities.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopHub" />
+        
+        <!-- HomeActivity -->
+        <activity
+            android:name="com.example.ecommerceapp.activities.HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopHub" />
+        
+        <!-- ProductDetailActivity -->
+        <activity
+            android:name="com.example.ecommerceapp.activities.ProductDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopHub" />
+        
+        <!-- SearchActivity -->
+        <activity
+            android:name="com.example.ecommerceapp.activities.SearchActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopHub" />
+        
+        <!-- CartActivity -->
+        <activity
+            android:name="com.example.ecommerceapp.activities.CartActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopHub" />
+        
+        <!-- CheckoutActivity -->
+        <activity
+            android:name="com.example.ecommerceapp.activities.CheckoutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopHub" />
+        
+        <!-- PurchaseHistoryActivity -->
+        <activity
+            android:name="com.example.ecommerceapp.activities.PurchaseHistoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopHub" />
+        
+        <!-- OrderDetailActivity -->
+        <activity
+            android:name="com.example.ecommerceapp.activities.OrderDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopHub" />
+    </application>
+
+</manifest>

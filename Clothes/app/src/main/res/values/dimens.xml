@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Spacing -->
+    <dimen name="spacing_base">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    
+    <!-- Input Padding -->
+    <dimen name="input_padding_horizontal">14dp</dimen>
+    <dimen name="input_padding_vertical">14dp</dimen>
+    
+    <!-- Button Padding -->
+    <dimen name="button_padding_vertical">16dp</dimen>
+    
+    <!-- Card Radius -->
+    <dimen name="card_corner_radius">12dp</dimen>
+    
+    <!-- Button Radius -->
+    <dimen name="button_radius_secondary">12dp</dimen>
+    <dimen name="button_radius_pill">999dp</dimen>
+    
+    <!-- Elevations -->
+    <dimen name="elevation_card">4dp</dimen>
+    <dimen name="elevation_button">8dp</dimen>
+    <dimen name="elevation_toolbar">2dp</dimen>
+</resources>
